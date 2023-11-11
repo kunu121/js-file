@@ -381,6 +381,7 @@ function list(path) {
     <br>
     <div id="list" class="list-group text-break">
     </div>
+    <br>
     <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
     <div id="readme_md" style="display:none; padding: 20px 20px;"></div>
     </div>
