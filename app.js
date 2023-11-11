@@ -378,6 +378,7 @@ function list(path) {
     content += `</ol>
   </nav>
   </div>
+    <br>
     <div id="list" class="list-group text-break">
     </div>
     <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
@@ -608,6 +609,7 @@ function render_search_result_list() {
   <div id="update"></div>
   <div class="card">
   <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0;">Search Results</div>
+  <br>
   <div id="list" class="list-group text-break">
   </div>
   </div>
